@@ -7,7 +7,7 @@ Consider this alarming statistic from the World Health Organization: stroke is t
 \* How accurate can machine learning models be in predicting strokes? <br>
 \* What factors contribute most significantly to stroke risk?<br>
 \* Can we trust AI to make decisions about our health?<br>
-Exploring a Recent ML Study<br>
+\* Exploring a Recent ML Study<br>
 
 To answer these questions, let's examine a recent ML study. The study observed a dataset of 5,110 patients with 12 different attributes, ranging from age and gender to more specific health indicators like hypertension and average glucose levels. Multiple machine learning algorithms were applied to this data, including:
 
