@@ -69,9 +69,9 @@ Remember, while AI can process vast amounts of data, it's the human touch—the 
 The project explored various machine learning algorithms for stroke prediction, encountering the common challenge of imbalanced data. The following summarizes the key findings:
 
 **Imbalanced Data**: The dataset exhibited a significant class imbalance, with a small percentage of patients having experienced a stroke.<br>
-
 **Model Performance**: On the imbalanced data, models like Logistic Regression, Gaussian Naive Bayes, and Support Vector Machines achieved high accuracy (around 95%). However, this accuracy was misleading due to the class imbalance.<br>
 **Undersampling**: The use of undersampling techniques helped address the class imbalance, leading to more meaningful model evaluations.<br>
 **K-Nearest Neighbors (KNN)**: KNN emerged as the best-performing model on the balanced dataset, achieving an F1-score of 0.77 and an accuracy of 0.69.<br>
 **Other Models**: Other models, including Decision Trees, Random Forest, and XGBoost, also showed promising results on the balanced dataset.<br>
+
 The project underscores the importance of carefully addressing imbalanced data in machine learning, particularly in critical healthcare applications like stroke prediction. By employing appropriate techniques and evaluating models using relevant metrics, we can strive to build robust and reliable predictive models that can truly make a difference in patient care.
