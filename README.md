@@ -37,11 +37,11 @@ Techniques for Tackling Imbalanced Data
 
 The answers lie in a toolkit of techniques to tackle imbalanced data. Let's explore a few:
 
-### Undersampling: Reducing the number of instances in the majority class to create a more balanced dataset.
-### Oversampling: Increasing the number of instances in the minority class, often by creating synthetic samples.
-### Cost-sensitive learning: Assigning different weights to the classes, making misclassifications of the minority class more costly.
-### Feature Engineering: Carefully choosing or dropping features based on their importance in predicting the desired target variable.
-### Overfitting: Reducing the learning magnitude to close the gap between test and train accuracy score (or RMSE) when the algorithm overlearns from the training data and doesn't perform well on the test (or real-world) data.
+**Undersampling**: Reducing the number of instances in the majority class to create a more balanced dataset.
+**Oversampling**: Increasing the number of instances in the minority class, often by creating synthetic samples.
+**Cost-sensitive learning**: Assigning different weights to the classes, making misclassifications of the minority class more costly.
+**Feature Engineering**: Carefully choosing or dropping features based on their importance in predicting the desired target variable.
+**Overfitting**: Reducing the learning magnitude to close the gap between test and train accuracy score (or RMSE) when the algorithm overlearns from the training data and doesn't perform well on the test (or real-world) data.
 
 #### Surprising Results
 
@@ -68,9 +68,9 @@ Remember, while AI can process vast amounts of data, it's the human touch—the 
 
 The project explored various machine learning algorithms for stroke prediction, encountering the common challenge of imbalanced data. The following summarizes the key findings:
 
-### Imbalanced Data: The dataset exhibited a significant class imbalance, with a small percentage of patients having experienced a stroke.
-### Model Performance: On the imbalanced data, models like Logistic Regression, Gaussian Naive Bayes, and Support Vector Machines achieved high accuracy (around 95%). However, this accuracy was misleading due to the class imbalance.
-### Undersampling: The use of undersampling techniques helped address the class imbalance, leading to more meaningful model evaluations.
-### K-Nearest Neighbors (KNN): KNN emerged as the best-performing model on the balanced dataset, achieving an F1-score of 0.77 and an accuracy of 0.69.
-### Other Models: Other models, including Decision Trees, Random Forest, and XGBoost, also showed promising results on the balanced dataset.
+### Imbalanced Data**: The dataset exhibited a significant class imbalance, with a small percentage of patients having experienced a stroke.
+### Model Performance**: On the imbalanced data, models like Logistic Regression, Gaussian Naive Bayes, and Support Vector Machines achieved high accuracy (around 95%). However, this accuracy was misleading due to the class imbalance.
+### Undersampling**: The use of undersampling techniques helped address the class imbalance, leading to more meaningful model evaluations.
+### K-Nearest Neighbors (KNN)**: KNN emerged as the best-performing model on the balanced dataset, achieving an F1-score of 0.77 and an accuracy of 0.69.
+**Other Models**: Other models, including Decision Trees, Random Forest, and XGBoost, also showed promising results on the balanced dataset.
 The project underscores the importance of carefully addressing imbalanced data in machine learning, particularly in critical healthcare applications like stroke prediction. By employing appropriate techniques and evaluating models using relevant metrics, we can strive to build robust and reliable predictive models that can truly make a difference in patient care.
